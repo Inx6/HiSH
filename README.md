@@ -7,7 +7,7 @@ After downloading the executable file ("file" directory), create an http folder,
 (2)Download the entire folder
 After downloading, follow the cargo command and run it.
 
-###Note!###
+#Note!
 1.Please put the executable, config.yaml, and http directories in the same folder!
 For example:
 ![image](https://user-images.githubusercontent.com/74340893/201650576-85d4ad21-05db-4df8-a9a2-2ebd56595a48.png)
@@ -22,7 +22,7 @@ For example:
 (2)下载整个文件夹
 下载后，按照 cargo 命令运行它即可。
 
-###警告！###
+#警告！
 1.请将可执行文件、config.yaml 和 http 目录放在同一个文件夹中！
 例如：
 ![image](https://user-images.githubusercontent.com/74340893/201651701-82725559-55b2-44ac-a883-9f6c9c634e0f.png)
