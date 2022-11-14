@@ -4,6 +4,7 @@ It's a server software that belongs to everybody, he __doesn't belong to nginx, 
 ## How to use?
 1.Download the executable file <br>  
 After downloading the ```executable file ("file" directory)```, create an ```http folder```, put the front-end source code you need to use, and then create an execution file according to ```config.yaml```. <br> 
+<br> 
 2.Download the entire folder <br>  
 After downloading, follow the cargo command and run it. <br> 
 
@@ -19,6 +20,7 @@ For example: <br>
 ## 如何使用？
 1.下载可执行文件 <br>  
 下载```可执行文件（file 目录中）```后，创建一个```http文件夹```，放好你需要使用的前端源码，然后根据```config.yaml```创建一个执行文件。<br> 
+<br> 
 2.下载整个文件夹 <br>   
 下载后，按照 cargo 命令运行它即可。<br> 
 
