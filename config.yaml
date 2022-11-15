@@ -1,11 +1,41 @@
 # 服务器配置内容
 
+#前端
+
 # 服务器名称
-name : test
-# 服务器监听地址
-addrip: 127.0.0.1
-# 服务器监听端口
-port: 9000
+name : wan's SERVER
+# 服务器监听地址 【本地ip地址】
+addrip_local : 127.0.0.1
+# 服务器监听地址 【外网ip地址】
+addrip : 127.0.0.1
+# 服务器监听端口 【80/443端口同样需要配置】
+port : 9000
+# 网站首页
+html : index.html
+
+# 警告！！！如果使用默认打包vue文件，请将构建后dist目录下的 index.html 和 static文件夹，
+# 复制到http目录下即可，无需进行js/css和其他文件配置。
+
+# 存放js目录名称【默认为js目录】【默认打包vue文件请填写static/js】
+js : static/js
+# 存放css目录名称【默认为css目录】【默认打包vue文件请填写static/css】
+css : static/css
+# 其他文件配置
+# 图片、视频、字体都将统一存放于http/file目录下,请自行进行配置
+# 【例如 图片文件夹: http/file/您的图片文件夹名称/您的图片】
+
+
+# 存放好服务器内容后，想要可靠的访问服务器js/css/其他文件, 请在 html 中配置好如下内容 
+# 【vue文件对打包后的html中的标签进行修改即可】
+# 1.js标签: <script src="http://您的ip地址或域名:端口/js/您的js文件"></script> 
+# 2.css标签: <link rel="stylesheet" href="http://您的ip地址或域名:端口/css/您的css文件">
+# 3.图片/视频：
+# （1）普通文件
+# http://您的ip地址或域名:端口/file/您的文件
+# （2）vue文件
+# http://您的ip地址或域名:端口/static/您的文件
+
+# 一切就绪！您可以打开浏览器访问您的网站了！
 
 # 服务器处于测试阶段，出现任何问题请发送邮件给本人：3307152402@qq.com， 去掉@qq.com可以直接加本人
 
